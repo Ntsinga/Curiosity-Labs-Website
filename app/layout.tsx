@@ -80,6 +80,9 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-icon.png", type: "image/png" }],
     shortcut: "/icon.png",
   },
+  other: {
+    "facebook-domain-verification": "ock9q3gIjtvurx6y96sdxa6dn4nxmp",
+  },
 };
 
 export default function RootLayout({
