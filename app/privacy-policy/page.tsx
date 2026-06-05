@@ -176,7 +176,7 @@ export default function PrivacyPolicy() {
             <p className="mt-3">
               To exercise these rights, contact us at{" "}
               <a
-                href="mailto:hello@curiositylabs.co"
+                href="mailto:hello@curiositylabs.tech"
                 className="text-sky-300 hover:text-sky-200 underline underline-offset-4"
               >
                 hello@curiositylabs.tech
@@ -218,7 +218,7 @@ export default function PrivacyPolicy() {
               <li>
                 Email:{" "}
                 <a
-                  href="mailto:hello@curiositylabs.co"
+                  href="mailto:hello@curiositylabs.tech"
                   className="text-sky-300 hover:text-sky-200 underline underline-offset-4"
                 >
                   hello@curiositylabs.tech

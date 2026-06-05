@@ -238,7 +238,7 @@ export default function Home() {
             we&apos;d love to connect.
           </p>
           <a
-            href="mailto:hello@curiositylabs.co"
+            href="mailto:hello@curiositylabs.tech"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-lg transition-colors"
           >
             Get in Touch
