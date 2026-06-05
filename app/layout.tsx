@@ -18,7 +18,8 @@ const orbitron = Orbitron({
   weight: ["400", "500"],
 });
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://curiositylabs.tech";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://curiositylabs.tech";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -81,7 +82,7 @@ export const metadata: Metadata = {
     shortcut: "/icon.png",
   },
   other: {
-    "facebook-domain-verification": "ock9q3gIjtvurx6y96sdxa6dn4nxmp",
+    "facebook-domain-verification": "ock9q3gljtvurx6y96sdxa6dn4nxmp",
   },
 };
 
