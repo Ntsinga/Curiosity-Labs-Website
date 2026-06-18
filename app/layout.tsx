@@ -23,8 +23,9 @@ const BASE_URL =
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
+  applicationName: "Curiosity Labs",
   title: {
-    default: "Curiosity Labs | What if it's possible?",
+    default: "Curiosity Labs",
     template: "%s | Curiosity Labs",
   },
   description:
@@ -39,29 +40,30 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Curiosity Labs", url: BASE_URL }],
   creator: "Curiosity Labs",
+  publisher: "Curiosity Labs",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: BASE_URL,
     siteName: "Curiosity Labs",
-    title: "Curiosity Labs | What if it's possible?",
+    title: "Curiosity Labs | African Technology & Innovation Hub",
     description:
       "A technology hub driven by curiosity, building solutions that solve Africa's problems one question at a time.",
     images: [
       {
-        url: "/logo.png",
-        width: 1254,
-        height: 1254,
-        alt: "Curiosity Labs question mark logo",
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Curiosity Labs — What if it's possible?",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Curiosity Labs | What if it's possible?",
+    title: "Curiosity Labs | African Technology & Innovation Hub",
     description:
       "A technology hub driven by curiosity, building solutions that solve Africa's problems one question at a time.",
-    images: ["/logo.png"],
+    images: ["/opengraph-image"],
   },
   robots: {
     index: true,
@@ -80,6 +82,9 @@ export const metadata: Metadata = {
     icon: [{ url: "/icon.png", type: "image/png" }],
     apple: [{ url: "/apple-icon.png", type: "image/png" }],
     shortcut: "/icon.png",
+  },
+  appleWebApp: {
+    title: "Curiosity Labs",
   },
   other: {
     "facebook-domain-verification": "ock9q3gljtvurx6y96sdxa6dn4nxmp",
