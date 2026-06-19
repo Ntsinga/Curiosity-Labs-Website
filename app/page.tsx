@@ -197,9 +197,15 @@ export default function Home() {
                   Build Technology Solutions
                 </h3>
                 <p className="text-zinc-400 leading-relaxed">
-                  We build applications under Curiosity Labs — like Teleba —
-                  that directly address real problems faced by communities
-                  across Africa.
+                    We build applications under Curiosity Labs — like {" "}
+                    <Link
+                      href="https://teleba.io"
+                      className="text-indigo-300 underline-offset-4 transition-colors hover:text-white hover:underline"
+                    >
+                      Teleba
+                    </Link>{" "}
+                    — that directly address real problems faced by communities
+                    across Africa.
                 </p>
               </div>
 
